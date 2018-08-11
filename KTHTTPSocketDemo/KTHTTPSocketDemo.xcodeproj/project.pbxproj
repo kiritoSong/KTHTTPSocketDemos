@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284347792C710866EEA0AFDE /* libPods-KTHTTPSocketDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7C911E83C399E649768671 /* libPods-KTHTTPSocketDemo.a */; };
+		5F248514211966DA00A42A5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F248513211966DA00A42A5D /* AppDelegate.m */; };
+		5F248517211966DA00A42A5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F248516211966DA00A42A5D /* ViewController.m */; };
+		5F24851A211966DA00A42A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F248518211966DA00A42A5D /* Main.storyboard */; };
+		5F24851C211966DC00A42A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F24851B211966DC00A42A5D /* Assets.xcassets */; };
+		5F24851F211966DC00A42A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F24851D211966DC00A42A5D /* LaunchScreen.storyboard */; };
+		5F248522211966DC00A42A5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F248521211966DC00A42A5D /* main.m */; };
+		5F24852C211966DC00A42A5D /* KTHTTPSocketDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F24852B211966DC00A42A5D /* KTHTTPSocketDemoTests.m */; };
+		5F248537211966DC00A42A5D /* KTHTTPSocketDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F248536211966DC00A42A5D /* KTHTTPSocketDemoUITests.m */; };
+		5F24854A21196AB200A42A5D /* KTTCPSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F24854921196AB200A42A5D /* KTTCPSocket.m */; };
+		5F24854D2119997C00A42A5D /* KTTCPSocketRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F24854C2119997C00A42A5D /* KTTCPSocketRequest.m */; };
+		5F2EB9B6211A9BD60093EA8A /* GetIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB9B2211A9BD60093EA8A /* GetIPAddress.m */; };
+		5F2EB9B7211A9BD60093EA8A /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB9B5211A9BD60093EA8A /* NSString+MD5.m */; };
+		5F2EB9BA211A9BF20093EA8A /* KTDataFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB9B9211A9BF20093EA8A /* KTDataFormatter.m */; };
+		5F2EB9BD211AB3BC0093EA8A /* KTTCPSocketResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB9BC211AB3BC0093EA8A /* KTTCPSocketResponse.m */; };
+		5F2EB9C0211ACC8F0093EA8A /* KTTCPSocketTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB9BF211ACC8F0093EA8A /* KTTCPSocketTask.m */; };
+		5F2EB9C7211ADD4C0093EA8A /* KTTCPSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2EB9C6211ADD4C0093EA8A /* KTTCPSocketManager.m */; };
+		5FAE80B9211C058400FA4332 /* KTTCPSocket+RequestIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE80B8211C058400FA4332 /* KTTCPSocket+RequestIdentifier.m */; };
+		5FAE80BC211C10DD00FA4332 /* KTTCPSocketSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE80BA211C10DD00FA4332 /* KTTCPSocketSerializer.m */; };
+		5FAE80BF211C156600FA4332 /* KTTCPSocketHeartbeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE80BE211C156600FA4332 /* KTTCPSocketHeartbeat.m */; };
+		5FAE80C2211C1AAF00FA4332 /* KTTCPNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAE80C1211C1AAE00FA4332 /* KTTCPNetWorking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F248528211966DC00A42A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F248507211966DA00A42A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F24850E211966DA00A42A5D;
+			remoteInfo = KTHTTPSocketDemo;
+		};
+		5F248533211966DC00A42A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F248507211966DA00A42A5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F24850E211966DA00A42A5D;
+			remoteInfo = KTHTTPSocketDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		366C5B07D1BC378BC4918149 /* Pods-KTHTTPSocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTHTTPSocketDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTHTTPSocketDemo/Pods-KTHTTPSocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4378FD58CEF617E281DF21BF /* Pods-KTHTTPSocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTHTTPSocketDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTHTTPSocketDemo/Pods-KTHTTPSocketDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5F24850F211966DA00A42A5D /* KTHTTPSocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTHTTPSocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F248512211966DA00A42A5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F248513211966DA00A42A5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F248515211966DA00A42A5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F248516211966DA00A42A5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F248519211966DA00A42A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F24851B211966DC00A42A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F24851E211966DC00A42A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F248520211966DC00A42A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F248521211966DC00A42A5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F248527211966DC00A42A5D /* KTHTTPSocketDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTHTTPSocketDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F24852B211966DC00A42A5D /* KTHTTPSocketDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTHTTPSocketDemoTests.m; sourceTree = "<group>"; };
+		5F24852D211966DC00A42A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F248532211966DC00A42A5D /* KTHTTPSocketDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTHTTPSocketDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F248536211966DC00A42A5D /* KTHTTPSocketDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTHTTPSocketDemoUITests.m; sourceTree = "<group>"; };
+		5F248538211966DC00A42A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F24854821196AB200A42A5D /* KTTCPSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPSocket.h; sourceTree = "<group>"; };
+		5F24854921196AB200A42A5D /* KTTCPSocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTCPSocket.m; sourceTree = "<group>"; };
+		5F24854B2119997C00A42A5D /* KTTCPSocketRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPSocketRequest.h; sourceTree = "<group>"; };
+		5F24854C2119997C00A42A5D /* KTTCPSocketRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTCPSocketRequest.m; sourceTree = "<group>"; };
+		5F2EB9B2211A9BD60093EA8A /* GetIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetIPAddress.m; sourceTree = "<group>"; };
+		5F2EB9B3211A9BD60093EA8A /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		5F2EB9B4211A9BD60093EA8A /* GetIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetIPAddress.h; sourceTree = "<group>"; };
+		5F2EB9B5211A9BD60093EA8A /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		5F2EB9B8211A9BF20093EA8A /* KTDataFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTDataFormatter.h; sourceTree = "<group>"; };
+		5F2EB9B9211A9BF20093EA8A /* KTDataFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTDataFormatter.m; sourceTree = "<group>"; };
+		5F2EB9BB211AB3BC0093EA8A /* KTTCPSocketResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPSocketResponse.h; sourceTree = "<group>"; };
+		5F2EB9BC211AB3BC0093EA8A /* KTTCPSocketResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTCPSocketResponse.m; sourceTree = "<group>"; };
+		5F2EB9BE211ACC8F0093EA8A /* KTTCPSocketTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPSocketTask.h; sourceTree = "<group>"; };
+		5F2EB9BF211ACC8F0093EA8A /* KTTCPSocketTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTCPSocketTask.m; sourceTree = "<group>"; };
+		5F2EB9C4211AD9980093EA8A /* ErrorUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ErrorUtils.h; sourceTree = "<group>"; };
+		5F2EB9C5211ADD4C0093EA8A /* KTTCPSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPSocketManager.h; sourceTree = "<group>"; };
+		5F2EB9C6211ADD4C0093EA8A /* KTTCPSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTCPSocketManager.m; sourceTree = "<group>"; };
+		5FAE80B6211BF40700FA4332 /* KTTCPSocketEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPSocketEnum.h; sourceTree = "<group>"; };
+		5FAE80B7211C058400FA4332 /* KTTCPSocket+RequestIdentifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTTCPSocket+RequestIdentifier.h"; sourceTree = "<group>"; };
+		5FAE80B8211C058400FA4332 /* KTTCPSocket+RequestIdentifier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KTTCPSocket+RequestIdentifier.m"; sourceTree = "<group>"; };
+		5FAE80BA211C10DD00FA4332 /* KTTCPSocketSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTCPSocketSerializer.m; sourceTree = "<group>"; };
+		5FAE80BB211C10DD00FA4332 /* KTTCPSocketSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTCPSocketSerializer.h; sourceTree = "<group>"; };
+		5FAE80BD211C156600FA4332 /* KTTCPSocketHeartbeat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPSocketHeartbeat.h; sourceTree = "<group>"; };
+		5FAE80BE211C156600FA4332 /* KTTCPSocketHeartbeat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTCPSocketHeartbeat.m; sourceTree = "<group>"; };
+		5FAE80C0211C1AAE00FA4332 /* KTTCPNetWorking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTTCPNetWorking.h; sourceTree = "<group>"; };
+		5FAE80C1211C1AAE00FA4332 /* KTTCPNetWorking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTTCPNetWorking.m; sourceTree = "<group>"; };
+		9E7C911E83C399E649768671 /* libPods-KTHTTPSocketDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KTHTTPSocketDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F24850C211966DA00A42A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284347792C710866EEA0AFDE /* libPods-KTHTTPSocketDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F248524211966DC00A42A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F24852F211966DC00A42A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A8A11B4E20064315CAF00D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366C5B07D1BC378BC4918149 /* Pods-KTHTTPSocketDemo.debug.xcconfig */,
+				4378FD58CEF617E281DF21BF /* Pods-KTHTTPSocketDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F248506211966DA00A42A5D = {
+			isa = PBXGroup;
+			children = (
+				5F248511211966DA00A42A5D /* KTHTTPSocketDemo */,
+				5F24852A211966DC00A42A5D /* KTHTTPSocketDemoTests */,
+				5F248535211966DC00A42A5D /* KTHTTPSocketDemoUITests */,
+				5F248510211966DA00A42A5D /* Products */,
+				30A8A11B4E20064315CAF00D /* Pods */,
+				B4B02B0F6EA5C039F979B51B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F248510211966DA00A42A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F24850F211966DA00A42A5D /* KTHTTPSocketDemo.app */,
+				5F248527211966DC00A42A5D /* KTHTTPSocketDemoTests.xctest */,
+				5F248532211966DC00A42A5D /* KTHTTPSocketDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F248511211966DA00A42A5D /* KTHTTPSocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5F248544211966EA00A42A5D /* KTHTTPSocket */,
+				5F248512211966DA00A42A5D /* AppDelegate.h */,
+				5F248513211966DA00A42A5D /* AppDelegate.m */,
+				5F248515211966DA00A42A5D /* ViewController.h */,
+				5F248516211966DA00A42A5D /* ViewController.m */,
+				5F248518211966DA00A42A5D /* Main.storyboard */,
+				5F24851B211966DC00A42A5D /* Assets.xcassets */,
+				5F24851D211966DC00A42A5D /* LaunchScreen.storyboard */,
+				5F248520211966DC00A42A5D /* Info.plist */,
+				5F248521211966DC00A42A5D /* main.m */,
+			);
+			path = KTHTTPSocketDemo;
+			sourceTree = "<group>";
+		};
+		5F24852A211966DC00A42A5D /* KTHTTPSocketDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F24852B211966DC00A42A5D /* KTHTTPSocketDemoTests.m */,
+				5F24852D211966DC00A42A5D /* Info.plist */,
+			);
+			path = KTHTTPSocketDemoTests;
+			sourceTree = "<group>";
+		};
+		5F248535211966DC00A42A5D /* KTHTTPSocketDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F248536211966DC00A42A5D /* KTHTTPSocketDemoUITests.m */,
+				5F248538211966DC00A42A5D /* Info.plist */,
+			);
+			path = KTHTTPSocketDemoUITests;
+			sourceTree = "<group>";
+		};
+		5F248544211966EA00A42A5D /* KTHTTPSocket */ = {
+			isa = PBXGroup;
+			children = (
+				5F2EB9B1211A9BD60093EA8A /* Tool */,
+				5F248545211966EA00A42A5D /* UDP */,
+				5F248546211966EA00A42A5D /* TCP */,
+				5F248547211966EA00A42A5D /* HTTP */,
+			);
+			path = KTHTTPSocket;
+			sourceTree = "<group>";
+		};
+		5F248545211966EA00A42A5D /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UDP;
+			sourceTree = "<group>";
+		};
+		5F248546211966EA00A42A5D /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				5F24854821196AB200A42A5D /* KTTCPSocket.h */,
+				5F24854921196AB200A42A5D /* KTTCPSocket.m */,
+				5F24854B2119997C00A42A5D /* KTTCPSocketRequest.h */,
+				5F24854C2119997C00A42A5D /* KTTCPSocketRequest.m */,
+				5F2EB9BB211AB3BC0093EA8A /* KTTCPSocketResponse.h */,
+				5F2EB9BC211AB3BC0093EA8A /* KTTCPSocketResponse.m */,
+				5F2EB9BE211ACC8F0093EA8A /* KTTCPSocketTask.h */,
+				5F2EB9BF211ACC8F0093EA8A /* KTTCPSocketTask.m */,
+				5F2EB9C5211ADD4C0093EA8A /* KTTCPSocketManager.h */,
+				5F2EB9C6211ADD4C0093EA8A /* KTTCPSocketManager.m */,
+				5FAE80BB211C10DD00FA4332 /* KTTCPSocketSerializer.h */,
+				5FAE80BA211C10DD00FA4332 /* KTTCPSocketSerializer.m */,
+				5FAE80B7211C058400FA4332 /* KTTCPSocket+RequestIdentifier.h */,
+				5FAE80B8211C058400FA4332 /* KTTCPSocket+RequestIdentifier.m */,
+				5FAE80BD211C156600FA4332 /* KTTCPSocketHeartbeat.h */,
+				5FAE80BE211C156600FA4332 /* KTTCPSocketHeartbeat.m */,
+				5FAE80C0211C1AAE00FA4332 /* KTTCPNetWorking.h */,
+				5FAE80C1211C1AAE00FA4332 /* KTTCPNetWorking.m */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		5F248547211966EA00A42A5D /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		5F2EB9B1211A9BD60093EA8A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5F2EB9B4211A9BD60093EA8A /* GetIPAddress.h */,
+				5F2EB9B2211A9BD60093EA8A /* GetIPAddress.m */,
+				5F2EB9B3211A9BD60093EA8A /* NSString+MD5.h */,
+				5F2EB9B5211A9BD60093EA8A /* NSString+MD5.m */,
+				5F2EB9B8211A9BF20093EA8A /* KTDataFormatter.h */,
+				5F2EB9B9211A9BF20093EA8A /* KTDataFormatter.m */,
+				5F2EB9C4211AD9980093EA8A /* ErrorUtils.h */,
+				5FAE80B6211BF40700FA4332 /* KTTCPSocketEnum.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		B4B02B0F6EA5C039F979B51B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E7C911E83C399E649768671 /* libPods-KTHTTPSocketDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F24850E211966DA00A42A5D /* KTHTTPSocketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F24853B211966DC00A42A5D /* Build configuration list for PBXNativeTarget "KTHTTPSocketDemo" */;
+			buildPhases = (
+				09A7005AAB2142FFE3D274AF /* [CP] Check Pods Manifest.lock */,
+				5F24850B211966DA00A42A5D /* Sources */,
+				5F24850C211966DA00A42A5D /* Frameworks */,
+				5F24850D211966DA00A42A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTHTTPSocketDemo;
+			productName = KTHTTPSocketDemo;
+			productReference = 5F24850F211966DA00A42A5D /* KTHTTPSocketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F248526211966DC00A42A5D /* KTHTTPSocketDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F24853E211966DC00A42A5D /* Build configuration list for PBXNativeTarget "KTHTTPSocketDemoTests" */;
+			buildPhases = (
+				5F248523211966DC00A42A5D /* Sources */,
+				5F248524211966DC00A42A5D /* Frameworks */,
+				5F248525211966DC00A42A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F248529211966DC00A42A5D /* PBXTargetDependency */,
+			);
+			name = KTHTTPSocketDemoTests;
+			productName = KTHTTPSocketDemoTests;
+			productReference = 5F248527211966DC00A42A5D /* KTHTTPSocketDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F248531211966DC00A42A5D /* KTHTTPSocketDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F248541211966DC00A42A5D /* Build configuration list for PBXNativeTarget "KTHTTPSocketDemoUITests" */;
+			buildPhases = (
+				5F24852E211966DC00A42A5D /* Sources */,
+				5F24852F211966DC00A42A5D /* Frameworks */,
+				5F248530211966DC00A42A5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F248534211966DC00A42A5D /* PBXTargetDependency */,
+			);
+			name = KTHTTPSocketDemoUITests;
+			productName = KTHTTPSocketDemoUITests;
+			productReference = 5F248532211966DC00A42A5D /* KTHTTPSocketDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F248507211966DA00A42A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kirito_song;
+				TargetAttributes = {
+					5F24850E211966DA00A42A5D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5F248526211966DC00A42A5D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5F24850E211966DA00A42A5D;
+					};
+					5F248531211966DC00A42A5D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5F24850E211966DA00A42A5D;
+					};
+				};
+			};
+			buildConfigurationList = 5F24850A211966DA00A42A5D /* Build configuration list for PBXProject "KTHTTPSocketDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F248506211966DA00A42A5D;
+			productRefGroup = 5F248510211966DA00A42A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F24850E211966DA00A42A5D /* KTHTTPSocketDemo */,
+				5F248526211966DC00A42A5D /* KTHTTPSocketDemoTests */,
+				5F248531211966DC00A42A5D /* KTHTTPSocketDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F24850D211966DA00A42A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F24851F211966DC00A42A5D /* LaunchScreen.storyboard in Resources */,
+				5F24851C211966DC00A42A5D /* Assets.xcassets in Resources */,
+				5F24851A211966DA00A42A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F248525211966DC00A42A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F248530211966DC00A42A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A7005AAB2142FFE3D274AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTHTTPSocketDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F24850B211966DA00A42A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F24854D2119997C00A42A5D /* KTTCPSocketRequest.m in Sources */,
+				5F2EB9BD211AB3BC0093EA8A /* KTTCPSocketResponse.m in Sources */,
+				5F2EB9C0211ACC8F0093EA8A /* KTTCPSocketTask.m in Sources */,
+				5F2EB9BA211A9BF20093EA8A /* KTDataFormatter.m in Sources */,
+				5F2EB9C7211ADD4C0093EA8A /* KTTCPSocketManager.m in Sources */,
+				5F248517211966DA00A42A5D /* ViewController.m in Sources */,
+				5F2EB9B6211A9BD60093EA8A /* GetIPAddress.m in Sources */,
+				5F248522211966DC00A42A5D /* main.m in Sources */,
+				5FAE80C2211C1AAF00FA4332 /* KTTCPNetWorking.m in Sources */,
+				5F248514211966DA00A42A5D /* AppDelegate.m in Sources */,
+				5F24854A21196AB200A42A5D /* KTTCPSocket.m in Sources */,
+				5FAE80BF211C156600FA4332 /* KTTCPSocketHeartbeat.m in Sources */,
+				5FAE80B9211C058400FA4332 /* KTTCPSocket+RequestIdentifier.m in Sources */,
+				5F2EB9B7211A9BD60093EA8A /* NSString+MD5.m in Sources */,
+				5FAE80BC211C10DD00FA4332 /* KTTCPSocketSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F248523211966DC00A42A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F24852C211966DC00A42A5D /* KTHTTPSocketDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F24852E211966DC00A42A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F248537211966DC00A42A5D /* KTHTTPSocketDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F248529211966DC00A42A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F24850E211966DA00A42A5D /* KTHTTPSocketDemo */;
+			targetProxy = 5F248528211966DC00A42A5D /* PBXContainerItemProxy */;
+		};
+		5F248534211966DC00A42A5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F24850E211966DA00A42A5D /* KTHTTPSocketDemo */;
+			targetProxy = 5F248533211966DC00A42A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F248518211966DA00A42A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F248519211966DA00A42A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F24851D211966DC00A42A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F24851E211966DC00A42A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F248539211966DC00A42A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F24853A211966DC00A42A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F24853C211966DC00A42A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366C5B07D1BC378BC4918149 /* Pods-KTHTTPSocketDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTHTTPSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTHTTPSocketDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F24853D211966DC00A42A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4378FD58CEF617E281DF21BF /* Pods-KTHTTPSocketDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTHTTPSocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTHTTPSocketDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F24853F211966DC00A42A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTHTTPSocketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTHTTPSocketDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTHTTPSocketDemo.app/KTHTTPSocketDemo";
+			};
+			name = Debug;
+		};
+		5F248540211966DC00A42A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTHTTPSocketDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTHTTPSocketDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTHTTPSocketDemo.app/KTHTTPSocketDemo";
+			};
+			name = Release;
+		};
+		5F248542211966DC00A42A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTHTTPSocketDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTHTTPSocketDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTHTTPSocketDemo;
+			};
+			name = Debug;
+		};
+		5F248543211966DC00A42A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QWDT94UJRT;
+				INFOPLIST_FILE = KTHTTPSocketDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kirito-song.KTHTTPSocketDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTHTTPSocketDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F24850A211966DA00A42A5D /* Build configuration list for PBXProject "KTHTTPSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F248539211966DC00A42A5D /* Debug */,
+				5F24853A211966DC00A42A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F24853B211966DC00A42A5D /* Build configuration list for PBXNativeTarget "KTHTTPSocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F24853C211966DC00A42A5D /* Debug */,
+				5F24853D211966DC00A42A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F24853E211966DC00A42A5D /* Build configuration list for PBXNativeTarget "KTHTTPSocketDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F24853F211966DC00A42A5D /* Debug */,
+				5F248540211966DC00A42A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F248541211966DC00A42A5D /* Build configuration list for PBXNativeTarget "KTHTTPSocketDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F248542211966DC00A42A5D /* Debug */,
+				5F248543211966DC00A42A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F248507211966DA00A42A5D /* Project object */;
+}
